@@ -2,3 +2,13 @@
     flex: 1 1 auto;
     align-items: center;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.mouse-hover:hover{
+    cursor: pointer;
+    transition: all 0.7 ease-in;
+}
