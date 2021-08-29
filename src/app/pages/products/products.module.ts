@@ -6,16 +6,8 @@ import { ProductsComponent } from './products.component';
 import { ProductComponent } from './product/product.component';
 import { MaterialModule } from 'src/app/material.module';
 
-
 @NgModule({
-  declarations: [
-    ProductsComponent,
-    ProductComponent
-  ],
-  imports: [
-    CommonModule,
-    ProductsRoutingModule,
-    MaterialModule
-  ]
+  declarations: [ProductsComponent, ProductComponent],
+  imports: [CommonModule, ProductsRoutingModule, MaterialModule],
 })
-export class ProductsModule { }
+export class ProductsModule {}
